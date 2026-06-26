@@ -1,0 +1,7 @@
+# x2 UpScale — зависимости для фоторежима (Real-ESRGAN x4plus через PyTorch)
+# pip install -r requirements-photo.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+realesrgan
+basicsr

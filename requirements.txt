@@ -1,0 +1,13 @@
+# x2 UpScale — минимальные зависимости
+# pip install -r requirements.txt
+
+# Core
+Pillow>=10.0.0
+
+# GUI
+PyQt6>=6.5.0
+
+# ─────────────────────────────────────
+# Для фотореализма (Real-ESRGAN x4plus):
+#   pip install -r requirements-photo.txt
+# ─────────────────────────────────────
