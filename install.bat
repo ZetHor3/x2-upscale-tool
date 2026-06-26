@@ -47,5 +47,9 @@ echo ============================================
 echo   Установка завершена!
 echo.
 echo   Запуск: python main.py
+echo.
+echo   Чтобы собрать .exe (PyInstaller):
+echo     pip install pyinstaller
+echo     build.bat
 echo ============================================
 pause

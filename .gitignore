@@ -1,5 +1,10 @@
 # Python
 __pycache__/
+
+# PyInstaller
+dist/
+build/
+*.spec
 *.pyc
 *.pyo
 *.pyd

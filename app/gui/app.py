@@ -370,7 +370,8 @@ class UpscaleGUI(QMainWindow):
         self.resize(1020, 720)
 
         # Set window icon
-        logo_path = Path(__file__).parent.parent.parent / "app" / "logo.png"
+        root = Path(sys._MEIPASS) if getattr(sys, "frozen", False) else Path(__file__).parent.parent.parent
+        logo_path = root / "app" / "logo.png"
         if logo_path.exists():
             self.setWindowIcon(QIcon(str(logo_path)))
 

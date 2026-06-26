@@ -5,6 +5,7 @@
 """
 
 import os
+import sys
 import subprocess
 import tempfile
 import json
@@ -18,9 +19,17 @@ logger = logging.getLogger(__name__)
 
 # ── Пути ────────────────────────────────────────────────────────
 
+
+def _app_root() -> Path:
+    """Вернуть корень проекта (работает и в .exe через PyInstaller)."""
+    if getattr(sys, "frozen", False):
+        return Path(sys._MEIPASS)
+    return Path(__file__).parent.parent.parent
+
+
 # Встроенный бинарник (идёт вместе с проектом)
-BUNDLED_BINARY = Path(__file__).parent.parent.parent / "bin" / "ncnn" / "realesrgan-ncnn-vulkan.exe"
-BUNDLED_MODELS = Path(__file__).parent.parent.parent / "bin" / "ncnn" / "models"
+BUNDLED_BINARY = _app_root() / "bin" / "ncnn" / "realesrgan-ncnn-vulkan.exe"
+BUNDLED_MODELS = _app_root() / "bin" / "ncnn" / "models"
 
 # Запасные пути (установленные пользователем ранее)
 FALLBACK_PATHS = [
