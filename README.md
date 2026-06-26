@@ -59,6 +59,8 @@ The `RealESRGAN_x4plus.pth` (67 MB) model will auto-download on first use.
 
 ### GUI
 
+![x2 UpScale GUI](app/screenshot.png)
+
 ```bash
 python main.py
 ```

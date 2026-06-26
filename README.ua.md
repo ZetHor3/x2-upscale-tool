@@ -60,6 +60,8 @@ pip install -r requirements-photo.txt
 
 ### GUI
 
+![x2 UpScale GUI](app/screenshot.png)
+
 ```bash
 python main.py
 ```
