@@ -6,6 +6,13 @@
     <a href="README.ua.md">🇺🇦 Українська</a>
   </p>
   <br>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python 3.10+">
+    <img src="https://img.shields.io/badge/PyQt6-6.5%2B-brightgreen?logo=qt&logoColor=white" alt="PyQt6">
+    <img src="https://img.shields.io/badge/CLI-ready-lightgrey?logo=terminal" alt="CLI">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License">
+  </p>
+  <br>
 </div>
 
 # 🇬🇧 x2 UpScale — Image Upscaling with AI

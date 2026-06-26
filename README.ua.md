@@ -2,9 +2,15 @@
   <img src="app/logo.png" alt="x2 UpScale Logo" width="192" height="192">
   <h1>🚀 x2 UpScale</h1>
   <p>
-    <a href="README.md">🏠 Головна</a> •
-    <a href="README.ru.md">🇷🇺</a> •
-    <a href="README.en.md">🇬🇧</a>
+    <a href="README.md">🏠 English</a> •
+    <a href="README.ru.md">🇷🇺</a>
+  </p>
+  <br>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python 3.10+">
+    <img src="https://img.shields.io/badge/PyQt6-6.5%2B-brightgreen?logo=qt&logoColor=white" alt="PyQt6">
+    <img src="https://img.shields.io/badge/CLI-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BE-lightgrey?logo=terminal" alt="CLI">
+    <img src="https://img.shields.io/badge/%D0%9B%D1%96%D1%86%D0%B5%D0%BD%D0%B7%D1%96%D1%8F-MIT-yellow" alt="MIT License">
   </p>
   <br>
 </div>
